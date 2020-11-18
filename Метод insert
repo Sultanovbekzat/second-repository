@@ -1,0 +1,5 @@
+class Queue:
+    def __init__(self):
+        self.people = []
+    def add(self, person):
+        self.people.insert(0, person)
